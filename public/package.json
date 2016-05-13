@@ -1,0 +1,9 @@
+{
+  "name": "rife-ng1",
+  "version": "0.0.1",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "~1.5.5",
+    "angular-route": "^1.5.5"
+  }
+}

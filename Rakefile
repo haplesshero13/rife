@@ -4,3 +4,9 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+Rake::Task["default"].clear if Rake::Task.task_defined?("default")
+task :default do
+  system('bundle exec rails test')
+  system('bundle exec rspec -fd')
+end
