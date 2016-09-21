@@ -32,6 +32,14 @@ RIFE does not use a database.
 See our public [Pivotal Tracker backlog](https://www.pivotaltracker.com/n/projects/1586687)
 for a list of current and future features.
 
+```
+bundle install
+cd public
+npm install
+```
+
 ### Deploying
 Currently there are no live versions of the app deployed, but you can push your
 app to your favorite PaaS with no additional configuration.
+
+Once you've installed with bundler and npm you can `cf push`.
